@@ -41,3 +41,4 @@ jobs:
     - name: Deploy (Simulated)
       run: |
         echo "🚀 Student API deployed successfully"
+  
