@@ -11,5 +11,4 @@ def health():
 def get_student(id):
     if id <= 0:
         return jsonify(error="Invalid student ID"), 400
-
     return jsonify(id=id, name="Student Name", dept="CSE")
